@@ -33,3 +33,6 @@ def test_reveal():
     game.reveal(2, 2)
     # TODO : Add assertions
     assert game.revealed == {(2, 2)}
+
+def test_fail():
+    assert False
